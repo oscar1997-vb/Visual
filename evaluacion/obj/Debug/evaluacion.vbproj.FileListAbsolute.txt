@@ -81,3 +81,22 @@ C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\
 C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.exe
 C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.xml
 C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.pdb
+C:\Fase4\Visual\evaluacion\bin\Debug\evaluacion.exe.config
+C:\Fase4\Visual\evaluacion\bin\Debug\evaluacion.exe
+C:\Fase4\Visual\evaluacion\bin\Debug\evaluacion.pdb
+C:\Fase4\Visual\evaluacion\bin\Debug\evaluacion.xml
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.vbprojAssemblyReference.cache
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Form1.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Form_busqueda.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Form_Mysql.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Form_Phyton.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Form_registro.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Form_menu.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Form_Scrum.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Form_under.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.Resources.resources
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.vbproj.GenerateResource.cache
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.vbproj.CoreCompileInputs.cache
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.exe
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.xml
+C:\Fase4\Visual\evaluacion\obj\Debug\evaluacion.pdb
