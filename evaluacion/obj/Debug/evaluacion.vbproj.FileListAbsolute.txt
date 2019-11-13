@@ -62,3 +62,22 @@ C:\Fase4\evaluacion\obj\Debug\evaluacion.pdb
 C:\Fase4\evaluacion\obj\Debug\evaluacion.Form_Mysql.resources
 C:\Fase4\evaluacion\obj\Debug\evaluacion.Form_Phyton.resources
 C:\Fase4\evaluacion\obj\Debug\evaluacion.Form_Scrum.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\bin\Debug\evaluacion.exe.config
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\bin\Debug\evaluacion.exe
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\bin\Debug\evaluacion.pdb
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\bin\Debug\evaluacion.xml
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.vbprojAssemblyReference.cache
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form1.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_busqueda.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_Mysql.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_Phyton.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_registro.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_menu.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_Scrum.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_under.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Resources.resources
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.vbproj.GenerateResource.cache
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.vbproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.exe
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.xml
+C:\Users\Leonardo\Desktop\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.pdb
