@@ -7,7 +7,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         validar_psw(Me.TextBox1.Text, Me.TextBox2.Text)
 
-
+        'prueba
 
 
     End Sub

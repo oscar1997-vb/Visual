@@ -81,10 +81,22 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form_Mysql.Designer.vb">
+      <DependentUpon>Form_Mysql.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Mysql.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form_busqueda.Designer.vb">
       <DependentUpon>Form_busqueda.vb</DependentUpon>
     </Compile>
     <Compile Include="Form_busqueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Phyton.Designer.vb">
+      <DependentUpon>Form_Phyton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Phyton.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_registro.Designer.vb">
@@ -97,6 +109,12 @@
       <DependentUpon>Form_menu.vb</DependentUpon>
     </Compile>
     <Compile Include="Form_menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Scrum.Designer.vb">
+      <DependentUpon>Form_Scrum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Scrum.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_under.Designer.vb">
@@ -120,6 +138,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Settings.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -128,11 +147,20 @@
     <EmbeddedResource Include="Form_busqueda.resx">
       <DependentUpon>Form_busqueda.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Mysql.resx">
+      <DependentUpon>Form_Mysql.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Phyton.resx">
+      <DependentUpon>Form_Phyton.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_registro.resx">
       <DependentUpon>Form_registro.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_menu.resx">
       <DependentUpon>Form_menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Scrum.resx">
+      <DependentUpon>Form_Scrum.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_under.resx">
       <DependentUpon>Form_under.vb</DependentUpon>

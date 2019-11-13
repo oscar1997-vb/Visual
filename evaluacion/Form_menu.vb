@@ -5,22 +5,22 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
-        Form_registro.Show()
+        Form_Phyton.Show()
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        cerrar_sql()
+        'cerrar_sql()
         Me.Close()
-        Form1.Show()
+        'Form1.Show()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Me.Hide()
-        Form_under.Show()
+        Form_Scrum.Show()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Me.Hide()
-        Form_under.Show()
+        Form_Mysql.Show()
     End Sub
 End Class

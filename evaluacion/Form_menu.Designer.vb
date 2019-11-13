@@ -33,11 +33,11 @@ Partial Class Form_menu
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(30, 27)
+        Me.Label1.Location = New System.Drawing.Point(50, 27)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(407, 24)
+        Me.Label1.Size = New System.Drawing.Size(388, 24)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Sistema de registro y evaluación de estudiantes"
+        Me.Label1.Text = "Sistema de ayudas multimedia y documentos"
         '
         'Button1
         '
@@ -45,7 +45,7 @@ Partial Class Form_menu
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(159, 23)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Registro Estudiantes"
+        Me.Button1.Text = "Phyton"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -54,7 +54,7 @@ Partial Class Form_menu
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(159, 23)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Ayudas educativas"
+        Me.Button2.Text = "Scrum"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -63,7 +63,7 @@ Partial Class Form_menu
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(159, 23)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Evaluaciones"
+        Me.Button3.Text = "Mysql"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -72,7 +72,7 @@ Partial Class Form_menu
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(159, 23)
         Me.Button4.TabIndex = 4
-        Me.Button4.Text = "Cerrar Sesión"
+        Me.Button4.Text = "Salir"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Form_menu

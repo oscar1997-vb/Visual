@@ -134,7 +134,7 @@ Partial Class Form1
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(261, 13)
         Me.Label6.TabIndex = 10
-        Me.Label6.Text = "Usuario para ingreso por defecto admin password 123"
+        Me.Label6.Text = "Uxuario para ingreso por defecto admin password 123"
         '
         'Form1
         '

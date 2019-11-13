@@ -6,7 +6,8 @@ Module Base_datos
     Dim resultados As String = ""
 
     Public Sub cerrar_sql()
-        conexion.Close()
+        'conexion.Close()
+
     End Sub
     'funcion para validar el usuario y contraseña de ingreso
     Public Sub validar_psw(ByVal id_al As String, pswd As String)
