@@ -124,3 +124,5 @@ C:\Users\Leonardo\Documents\Sync\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic
 C:\Users\Leonardo\Documents\Sync\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\Interop.WMPLib.dll
 C:\Users\Leonardo\Documents\Sync\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\Leonardo\Documents\Sync\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.vbproj.ResolveComReference.cache
+C:\Users\Leonardo\Documents\Sync\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_Phyton2.resources
+C:\Users\Leonardo\Documents\Sync\UNAD\UNAD_2019\7° 2019-2 Semestre\Visual Basic\Paso4\Code\Visual\evaluacion\obj\Debug\evaluacion.Form_Phyton3.resources

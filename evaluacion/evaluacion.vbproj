@@ -105,6 +105,12 @@
     <Compile Include="Form_Phyton2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form_Phyton3.Designer.vb">
+      <DependentUpon>Form_Phyton3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Phyton3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form_registro.Designer.vb">
       <DependentUpon>Form_registro.vb</DependentUpon>
     </Compile>
@@ -158,6 +164,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Phyton.resx">
       <DependentUpon>Form_Phyton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Phyton2.resx">
+      <DependentUpon>Form_Phyton2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Phyton3.resx">
+      <DependentUpon>Form_Phyton3.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_registro.resx">
       <DependentUpon>Form_registro.vb</DependentUpon>

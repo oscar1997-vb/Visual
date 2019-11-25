@@ -25,5 +25,10 @@
         Me.Close()
         Form_menu.Close()
         Form_Phyton2.Close()
+        Form_Phyton3.Close()
+    End Sub
+
+    Private Sub Form_Phyton_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

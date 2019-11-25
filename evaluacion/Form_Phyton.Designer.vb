@@ -245,6 +245,7 @@ Partial Class Form_Phyton
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form_Phyton"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Ayudas Académicas Phyton"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbLinux, System.ComponentModel.ISupportInitialize).EndInit()
