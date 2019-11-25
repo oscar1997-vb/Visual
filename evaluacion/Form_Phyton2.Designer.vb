@@ -163,6 +163,7 @@ Partial Class Form_Phyton2
         '
         'PictureBox2
         '
+        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.InitialImage = CType(resources.GetObject("PictureBox2.InitialImage"), System.Drawing.Image)
         Me.PictureBox2.Location = New System.Drawing.Point(186, 162)
@@ -194,6 +195,7 @@ Partial Class Form_Phyton2
         '
         'PictureBox3
         '
+        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(78, 290)
         Me.PictureBox3.Name = "PictureBox3"
@@ -203,6 +205,7 @@ Partial Class Form_Phyton2
         '
         'PictureBox4
         '
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(575, 290)
         Me.PictureBox4.Name = "PictureBox4"
@@ -212,6 +215,7 @@ Partial Class Form_Phyton2
         '
         'PictureBox5
         '
+        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(279, 247)
         Me.PictureBox5.Name = "PictureBox5"

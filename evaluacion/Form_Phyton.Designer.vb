@@ -89,6 +89,7 @@ Partial Class Form_Phyton
         '
         'pbLinux
         '
+        Me.pbLinux.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pbLinux.Image = CType(resources.GetObject("pbLinux.Image"), System.Drawing.Image)
         Me.pbLinux.Location = New System.Drawing.Point(322, 113)
         Me.pbLinux.Name = "pbLinux"
@@ -98,6 +99,7 @@ Partial Class Form_Phyton
         '
         'pbWin
         '
+        Me.pbWin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pbWin.Image = CType(resources.GetObject("pbWin.Image"), System.Drawing.Image)
         Me.pbWin.Location = New System.Drawing.Point(162, 113)
         Me.pbWin.Name = "pbWin"
@@ -107,6 +109,7 @@ Partial Class Form_Phyton
         '
         'pbMac
         '
+        Me.pbMac.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pbMac.Image = CType(resources.GetObject("pbMac.Image"), System.Drawing.Image)
         Me.pbMac.Location = New System.Drawing.Point(486, 113)
         Me.pbMac.Name = "pbMac"
