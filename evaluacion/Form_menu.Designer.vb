@@ -72,7 +72,7 @@ Partial Class Form_menu
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(159, 23)
         Me.Button4.TabIndex = 4
-        Me.Button4.Text = "Salir"
+        Me.Button4.Text = "Inicio"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Form_menu
@@ -86,7 +86,8 @@ Partial Class Form_menu
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form_menu"
-        Me.Text = "Menu principal"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Acceso a cursos"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

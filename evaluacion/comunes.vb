@@ -4,18 +4,18 @@ Module comunes
 
 
     Public Sub limpiar_form_registro()
-        Form_registro.TextBox1.Text = ""
-        Form_registro.TextBox2.Text = ""
-        Form_registro.TextBox3.Text = ""
-        Form_registro.TextBox4.Text = ""
-        Form_registro.TextBox5.Text = ""
-        Form_registro.TextBox6.Text = ""
-        Form_registro.TextBox7.Text = ""
+        Form_registro.txtNombres.Text = ""
+        Form_registro.txtApellidos.Text = ""
+        Form_registro.txtCedula.Text = ""
+        Form_registro.txtCorreo.Text = ""
+        Form_registro.txtTelefono.Text = ""
+        Form_registro.txtDireccion.Text = ""
+        Form_registro.txtPrograma.Text = ""
 
     End Sub
 
     Public Function vacio_registro() As Boolean
-        If Form_registro.TextBox1.Text Is "" Or Form_registro.TextBox2.Text Is "" Or Form_registro.TextBox3.Text Is "" Or Form_registro.TextBox4.Text Is "" Or Form_registro.TextBox5.Text Is "" Or Form_registro.TextBox6.Text Is "" Or Form_registro.TextBox7.Text Is "" Then
+        If Form_registro.txtNombres.Text Is "" Or Form_registro.txtApellidos.Text Is "" Or Form_registro.txtCedula.Text Is "" Or Form_registro.txtCorreo.Text Is "" Or Form_registro.txtTelefono.Text Is "" Or Form_registro.txtDireccion.Text Is "" Or Form_registro.txtPrograma.Text Is "" Then
             Return True
         Else
             Return False

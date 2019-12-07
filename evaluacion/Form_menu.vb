@@ -9,9 +9,8 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        'cerrar_sql()
         Me.Close()
-        'Form1.Show()
+        Form_Ingreso.Show()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

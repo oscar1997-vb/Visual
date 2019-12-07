@@ -22,7 +22,7 @@ Module Base_datos
         Loop
         If resultados = pswd Then
 
-            Form1.Hide()
+            Form_Ingreso.Hide()
             Form_menu.Show()
         Else
             MsgBox("usuario o contraseña erronea")
@@ -65,7 +65,7 @@ Module Base_datos
         Dim valores As String = ""
         Dim codigo_curso = 0
         'asigno un los codigos relacionados al curso 
-        Select Case Form_registro.ComboBox1.SelectedIndex
+        Select Case Form_registro.cbCursos.SelectedIndex
             Case 0
                 codigo_curso = 9081
             Case 1
@@ -81,7 +81,7 @@ Module Base_datos
 
         End Select
         'armo el string de valores a utilizar con la sentencia de insersion
-        valores = "'" & Form_registro.TextBox1.Text & "','" & Form_registro.TextBox2.Text & "','" & Form_registro.TextBox3.Text & "','" & Form_registro.TextBox4.Text & "','" & Form_registro.TextBox5.Text & "','" & Form_registro.TextBox6.Text & "','" & Form_registro.TextBox7.Text & "','" & codigo_curso & "'"
+        valores = "'" & Form_registro.txtNombres.Text & "','" & Form_registro.txtApellidos.Text & "','" & Form_registro.txtCedula.Text & "','" & Form_registro.txtCorreo.Text & "','" & Form_registro.txtTelefono.Text & "','" & Form_registro.txtDireccion.Text & "','" & Form_registro.txtPrograma.Text & "','" & codigo_curso & "'"
         Try
             ' ejecuto comando insert sobre la base de datos
             comandos = conexion.CreateCommand
@@ -100,13 +100,13 @@ Module Base_datos
         comandos.CommandText = "SELECT * FROM Alumno where Cedula='" & id & "'"
         resultado = comandos.ExecuteReader()
         Do While resultado.Read()
-            Form_registro.TextBox1.Text = resultado.GetString(0)
-            Form_registro.TextBox2.Text = resultado.GetString(1)
-            Form_registro.TextBox3.Text = resultado.GetString(2)
-            Form_registro.TextBox4.Text = resultado.GetString(4)
-            Form_registro.TextBox5.Text = resultado.GetString(7)
-            Form_registro.TextBox6.Text = resultado.GetString(3)
-            Form_registro.TextBox7.Text = resultado.GetString(5)
+            Form_registro.txtNombres.Text = resultado.GetString(0)
+            Form_registro.txtApellidos.Text = resultado.GetString(1)
+            Form_registro.txtCedula.Text = resultado.GetString(2)
+            Form_registro.txtCorreo.Text = resultado.GetString(4)
+            Form_registro.txtTelefono.Text = resultado.GetString(7)
+            Form_registro.txtDireccion.Text = resultado.GetString(3)
+            Form_registro.txtPrograma.Text = resultado.GetString(5)
 
         Loop
         resultado.Close()
@@ -117,7 +117,7 @@ Module Base_datos
         Dim confirmar = vbYes
         Dim codigo_curso = 0
 
-        Select Case Form_registro.ComboBox1.SelectedIndex
+        Select Case Form_registro.cbCursos.SelectedIndex
             Case 0
                 codigo_curso = 9081
             Case 1
@@ -133,7 +133,7 @@ Module Base_datos
         End Select
         Try
 
-            If (Form_registro.TextBox3.Text IsNot "") Then
+            If (Form_registro.txtCedula.Text IsNot "") Then
                 If (vacio_registro()) Then
                     confirmar = MsgBox("Existen campos en blanco esta seguro de continuar ", vbYesNo)
                 End If
@@ -144,9 +144,9 @@ Module Base_datos
                 Return
             End If
             If confirmar = vbYes Then
-                actualizar = "Nombre = '" & Form_registro.TextBox1.Text & "',Apellido = '" & Form_registro.TextBox2.Text & "',Cedula = '" & Form_registro.TextBox3.Text & "',Email = '" & Form_registro.TextBox4.Text & "',Telefono = '" & Form_registro.TextBox5.Text & "', Direccion = '" & Form_registro.TextBox6.Text & "', Programa = '" & Form_registro.TextBox7.Text & "',Cursos = '" & codigo_curso & "'"
+                actualizar = "Nombre = '" & Form_registro.txtNombres.Text & "',Apellido = '" & Form_registro.txtApellidos.Text & "',Cedula = '" & Form_registro.txtCedula.Text & "',Email = '" & Form_registro.txtCorreo.Text & "',Telefono = '" & Form_registro.txtTelefono.Text & "', Direccion = '" & Form_registro.txtDireccion.Text & "', Programa = '" & Form_registro.txtPrograma.Text & "',Cursos = '" & codigo_curso & "'"
                 comandos = conexion.CreateCommand
-                comandos.CommandText = "UPDATE Alumno SET " & actualizar & "Where Cedula = '" & Form_registro.TextBox3.Text & "'"
+                comandos.CommandText = "UPDATE Alumno SET " & actualizar & "Where Cedula = '" & Form_registro.txtCedula.Text & "'"
                 resultado = comandos.ExecuteReader()
                 resultado.Close()
                 MsgBox("Registro actualizado correctamente ")

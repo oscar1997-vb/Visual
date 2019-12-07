@@ -29,21 +29,20 @@ Partial Class Form_registro
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.txtNombres = New System.Windows.Forms.TextBox()
+        Me.txtApellidos = New System.Windows.Forms.TextBox()
+        Me.txtCedula = New System.Windows.Forms.TextBox()
+        Me.txtCorreo = New System.Windows.Forms.TextBox()
+        Me.txtTelefono = New System.Windows.Forms.TextBox()
+        Me.txtDireccion = New System.Windows.Forms.TextBox()
+        Me.txtPrograma = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cbCursos = New System.Windows.Forms.ComboBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.txtPass = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -109,105 +108,78 @@ Partial Class Form_registro
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Programa de estudio"
         '
-        'TextBox1
+        'txtNombres
         '
-        Me.TextBox1.Location = New System.Drawing.Point(173, 88)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(384, 20)
-        Me.TextBox1.TabIndex = 7
+        Me.txtNombres.Location = New System.Drawing.Point(173, 88)
+        Me.txtNombres.Name = "txtNombres"
+        Me.txtNombres.Size = New System.Drawing.Size(384, 20)
+        Me.txtNombres.TabIndex = 7
         '
-        'TextBox2
+        'txtApellidos
         '
-        Me.TextBox2.Location = New System.Drawing.Point(173, 119)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(384, 20)
-        Me.TextBox2.TabIndex = 8
+        Me.txtApellidos.Location = New System.Drawing.Point(173, 119)
+        Me.txtApellidos.Name = "txtApellidos"
+        Me.txtApellidos.Size = New System.Drawing.Size(384, 20)
+        Me.txtApellidos.TabIndex = 8
         '
-        'TextBox3
+        'txtCedula
         '
-        Me.TextBox3.Location = New System.Drawing.Point(173, 149)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(384, 20)
-        Me.TextBox3.TabIndex = 9
+        Me.txtCedula.Location = New System.Drawing.Point(173, 149)
+        Me.txtCedula.Name = "txtCedula"
+        Me.txtCedula.Size = New System.Drawing.Size(384, 20)
+        Me.txtCedula.TabIndex = 9
         '
-        'TextBox4
+        'txtCorreo
         '
-        Me.TextBox4.Location = New System.Drawing.Point(173, 180)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(384, 20)
-        Me.TextBox4.TabIndex = 10
+        Me.txtCorreo.Location = New System.Drawing.Point(173, 180)
+        Me.txtCorreo.Name = "txtCorreo"
+        Me.txtCorreo.Size = New System.Drawing.Size(384, 20)
+        Me.txtCorreo.TabIndex = 10
         '
-        'TextBox5
+        'txtTelefono
         '
-        Me.TextBox5.Location = New System.Drawing.Point(173, 211)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(384, 20)
-        Me.TextBox5.TabIndex = 11
+        Me.txtTelefono.Location = New System.Drawing.Point(173, 211)
+        Me.txtTelefono.Name = "txtTelefono"
+        Me.txtTelefono.Size = New System.Drawing.Size(384, 20)
+        Me.txtTelefono.TabIndex = 11
         '
-        'TextBox6
+        'txtDireccion
         '
-        Me.TextBox6.Location = New System.Drawing.Point(173, 242)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(384, 20)
-        Me.TextBox6.TabIndex = 12
+        Me.txtDireccion.Location = New System.Drawing.Point(173, 242)
+        Me.txtDireccion.Name = "txtDireccion"
+        Me.txtDireccion.Size = New System.Drawing.Size(384, 20)
+        Me.txtDireccion.TabIndex = 12
         '
-        'TextBox7
+        'txtPrograma
         '
-        Me.TextBox7.Location = New System.Drawing.Point(173, 274)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(384, 20)
-        Me.TextBox7.TabIndex = 13
+        Me.txtPrograma.Location = New System.Drawing.Point(173, 274)
+        Me.txtPrograma.Name = "txtPrograma"
+        Me.txtPrograma.Size = New System.Drawing.Size(384, 20)
+        Me.txtPrograma.TabIndex = 13
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(91, 389)
+        Me.Button1.Location = New System.Drawing.Point(200, 387)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 14
         Me.Button1.Text = "Agregar"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(288, 389)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 15
-        Me.Button2.Text = "Modificar"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(385, 389)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 16
-        Me.Button3.Text = "Eliminar"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(482, 389)
+        Me.Button4.Location = New System.Drawing.Point(328, 387)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 21
-        Me.Button4.Text = "Cancelar"
+        Me.Button4.Text = "Inicio"
         Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(192, 389)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 22
-        Me.Button5.Text = "Buscar"
-        Me.Button5.UseVisualStyleBackColor = True
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(266, 31)
+        Me.Label10.Location = New System.Drawing.Point(223, 29)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(180, 20)
         Me.Label10.TabIndex = 23
@@ -222,35 +194,51 @@ Partial Class Form_registro
         Me.Label8.TabIndex = 24
         Me.Label8.Text = "Cursos"
         '
-        'ComboBox1
+        'cbCursos
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Base de datos relacionales", "Phyton", "MySQL", "Desarrollo de Proyectos", "Scrum"})
-        Me.ComboBox1.Location = New System.Drawing.Point(173, 313)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(164, 21)
-        Me.ComboBox1.TabIndex = 26
+        Me.cbCursos.FormattingEnabled = True
+        Me.cbCursos.Items.AddRange(New Object() {"Base de datos relacionales", "Phyton", "MySQL", "Desarrollo de Proyectos", "Scrum"})
+        Me.cbCursos.Location = New System.Drawing.Point(173, 313)
+        Me.cbCursos.Name = "cbCursos"
+        Me.cbCursos.Size = New System.Drawing.Size(164, 21)
+        Me.cbCursos.TabIndex = 26
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(53, 350)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(61, 13)
+        Me.Label9.TabIndex = 27
+        Me.Label9.Text = "Contraseña"
+        '
+        'txtPass
+        '
+        Me.txtPass.Location = New System.Drawing.Point(173, 347)
+        Me.txtPass.Name = "txtPass"
+        Me.txtPass.Size = New System.Drawing.Size(384, 20)
+        Me.txtPass.TabIndex = 28
+        Me.txtPass.UseSystemPasswordChar = True
         '
         'Form_registro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(652, 467)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.ClientSize = New System.Drawing.Size(611, 439)
+        Me.Controls.Add(Me.txtPass)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.cbCursos)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtPrograma)
+        Me.Controls.Add(Me.txtDireccion)
+        Me.Controls.Add(Me.txtTelefono)
+        Me.Controls.Add(Me.txtCorreo)
+        Me.Controls.Add(Me.txtCedula)
+        Me.Controls.Add(Me.txtApellidos)
+        Me.Controls.Add(Me.txtNombres)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -259,6 +247,7 @@ Partial Class Form_registro
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form_registro"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Registro de estudiantes"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -272,19 +261,20 @@ Partial Class Form_registro
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents txtNombres As TextBox
+    Friend WithEvents txtApellidos As TextBox
+    Friend WithEvents txtCedula As TextBox
+    Friend WithEvents txtCorreo As TextBox
+    Friend WithEvents txtTelefono As TextBox
+    Friend WithEvents txtDireccion As TextBox
+    Friend WithEvents txtPrograma As TextBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
     Friend WithEvents Label10 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents cbCursos As ComboBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents txtPass As TextBox
+    Friend WithEvents lblTest As Label
+    Friend WithEvents btnDesc As Button
 End Class
